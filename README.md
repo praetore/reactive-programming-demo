@@ -1,4 +1,4 @@
-###How to run
+### How to run
 
 `docker-compose up` in project root
 
