@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS message;
+
+CREATE TABLE message (
+     id SERIAL PRIMARY KEY,
+     author VARCHAR(128) NOT NULL,
+     date TIMESTAMP NOT NULL,
+     message VARCHAR(255) NOT NULL
+)
+
